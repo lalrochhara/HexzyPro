@@ -7,9 +7,6 @@ import traceback
 from sys import argv
 from typing import Optional
 
-# needed to dynamically load modules
-# NOTE: Module order is not guaranteed, specify that in the config file!
-from Hexzy.modules import ALL_MODULES
 from telegram import (
     Chat,
     InlineKeyboardButton,
@@ -56,6 +53,10 @@ from Hexzy import (
     telethn,
     updater,
 )
+
+# needed to dynamically load modules
+# NOTE: Module order is not guaranteed, specify that in the config file!
+from Hexzy.modules import ALL_MODULES
 from Hexzy.modules.helper_funcs.alternate import typing_action
 from Hexzy.modules.helper_funcs.chat_status import is_user_admin
 from Hexzy.modules.helper_funcs.misc import paginate_modules
