@@ -9,7 +9,7 @@ from typing import Optional
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from HEXZY.modules import ALL_MODULES
+from Hexzy.modules import ALL_MODULES
 from telegram import (
     Chat,
     InlineKeyboardButton,
