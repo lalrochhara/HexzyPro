@@ -78,7 +78,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="⛑ Help & Commands ❓", url="https://t.me/HexzyBot?start=help"),
+        InlineKeyboardButton(
+            text="⛑ Help & Commands ❓", url="https://t.me/HexzyBot?start=help"
+        ),
     ],
     [
         InlineKeyboardButton(
