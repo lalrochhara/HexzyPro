@@ -7,6 +7,9 @@ import traceback
 from sys import argv
 from typing import Optional
 
+# needed to dynamically load modules
+# NOTE: Module order is not guaranteed, specify that in the config file!
+from HEXZY.modules import ALL_MODULES
 from telegram import (
     Chat,
     InlineKeyboardButton,
@@ -53,10 +56,6 @@ from Hexzy import (
     telethn,
     updater,
 )
-
-# needed to dynamically load modules
-# NOTE: Module order is not guaranteed, specify that in the config file!
-from HEXZY.modules import ALL_MODULES
 from Hexzy.modules.helper_funcs.alternate import typing_action
 from Hexzy.modules.helper_funcs.chat_status import is_user_admin
 from Hexzy.modules.helper_funcs.misc import paginate_modules
@@ -73,14 +72,18 @@ I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managi
 buttons = [
     [
         InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
-        InlineKeyboardButton(text=" 🦠 Update Channel ",url="https://t.me/Mafia_Update"),
+        InlineKeyboardButton(
+            text=" 🦠 Update Channel ", url="https://t.me/Mafia_Update"
+        ),
     ],
     [
         InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🚑 Support Group",url="https://t.me/Gangofmafiateam"),
-        InlineKeyboardButton(text=" ⚡️ Developer ",url="https://t.me/Prabha_sha"),   
+        InlineKeyboardButton(
+            text="🚑 Support Group", url="https://t.me/Gangofmafiateam"
+        ),
+        InlineKeyboardButton(text=" ⚡️ Developer ", url="https://t.me/Prabha_sha"),
     ],
     [
         InlineKeyboardButton(
