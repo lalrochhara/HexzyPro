@@ -392,15 +392,16 @@ def Hexzy_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="❔Help & Commands", callback_data="help_back"
+                            text="⛑ Help & Commands❔", callback_data="help_back"
                         )
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="PM_START_TEXT")],
+                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
                 ]
             ),
         )
     elif query.data == "aboutmanu_back":
         query.message.edit_text(
+            Hexzy_IMG,
             PM_START_TEXT,
             reply_markup=InlineKeyboardMarkup(buttons),
             parse_mode=ParseMode.MARKDOWN,
