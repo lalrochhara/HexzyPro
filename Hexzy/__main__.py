@@ -63,11 +63,11 @@ from Hexzy.modules.helper_funcs.misc import paginate_modules
 from Hexzy.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [Hexzy Pro](https://telegra.ph/file/23c40c8b88da2370e9743.jpg)
+Hello there, I'm Bot :) Working On @GalaxyLanka
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
-✪ Make sure you read *INFO* Section Below ✪ 
+✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ 
 """
 
 buttons = [
