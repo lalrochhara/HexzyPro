@@ -2,7 +2,7 @@
 # Hexzy (A telegram Bot Project)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prabhasha-p/HexzyPro)
 
-## https://SlTechCom.webnode.com
+## https://HiTechRocket.webnode.com
 ## Avaiilable on Telegram as [@HexzyBot](https://t.me/Hexzybot)
 
 ## How to setup/deploy.
