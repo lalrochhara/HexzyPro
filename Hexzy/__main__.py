@@ -63,9 +63,9 @@ from Hexzy.modules.helper_funcs.misc import paginate_modules
 from Hexzy.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm Bot :) Working On @GalaxyLanka
+Chibai kei hi, Lianchhiari ka ni :) @misslianchhiarisupport ah ka awm e
 
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
+Kei hian i group tan tangkai tak in hna ka thawh sak dawn che  ani
 
 ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ 
 """
@@ -74,23 +74,23 @@ buttons = [
     [
         InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
         InlineKeyboardButton(
-            text=" 🦠 Update Channel ", url="https://t.me/Mafia_Update"
+            text=" 🦠 Update Channel ", url="https://t.me/misslianchhiarisupport2"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="⛑ Help & Commands ❓", url="https://t.me/HexzyBot?start=help"
+            text="⛑ Help & Commands ❓", url="https://t.me/miss_lianchhiari2_bot?start=help"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="🚑 Support Group", url="https://t.me/Gangofmafiateam"
+            text="🚑 Support Group", url="https://t.me/misslianchhiarisupport"
         ),
-        InlineKeyboardButton(text=" ⚡️ Developer ", url="https://t.me/Prabha_sha"),
+        InlineKeyboardButton(text=" ⚡️ Developer ", url="https://t.me/nickylrca"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Hexzy to Your Group 🎨", url="t.me/HexzyBot?startgroup=true"
+            text="➕ I Group ah add rawh 🎨", url="t.me/miss_lianchhiari2_bot?startgroup=true"
         ),
     ],
 ]
