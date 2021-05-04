@@ -63,7 +63,7 @@ from Hexzy.modules.helper_funcs.misc import paginate_modules
 from Hexzy.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Chibai kei hi, Lianchhiari ka ni :) @misslianchhiarisupport ah ka awm e
+Chibai kei hi, Zo Stream bot ka ni :) @zostreamincsupport ah ka awm e
 
 Kei hian i group tan tangkai tak in hna ka thawh sak dawn che  ani
 
@@ -74,23 +74,23 @@ buttons = [
     [
         InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
         InlineKeyboardButton(
-            text=" 🦠 Update Channel ", url="https://t.me/misslianchhiarisupport2"
+            text=" 🦠 Update Channel ", url="https://t.me/zostreamincsupport2"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="⛑ Help & Commands ❓", url="https://t.me/miss_lianchhiari2_bot?start=help"
+            text="⛑ Help & Commands ❓", url="https://t.me/zo_stream_bot?start=help"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="🚑 Support Group", url="https://t.me/misslianchhiarisupport"
+            text="🚑 Support Group", url="https://t.me/zostreamincsupport"
         ),
         InlineKeyboardButton(text=" ⚡️ Developer ", url="https://t.me/nickylrca"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ I Group ah add rawh 🎨", url="t.me/miss_lianchhiari2_bot?startgroup=true"
+            text="➕ I Group ah add rawh 🎨", url="t.me/zo_stream_bot?startgroup=true"
         ),
     ],
 ]
@@ -109,7 +109,7 @@ HELP_STRINGS = f"""
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-Hexzy_IMG = "https://telegra.ph/file/23c40c8b88da2370e9743.jpg"
+Hexzy_IMG = "https://t.me/zostreamincsupport/31"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
@@ -374,7 +374,7 @@ def Hexzy_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by Infinity_Bots.* "
-            f"\n\n 🔥 Join [Mafia Updates](https://t.me/Mafia_Update) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [Zo Stream Inc Support](https://t.me/zostreamincsupport2) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/473cc17913393959e0667.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
@@ -412,7 +412,7 @@ def Hexzy_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Gang Of Mafia](https://t.me/GangOfMafiaTeam).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Zo Stream Inc Support](https://t.me/zostreamincsupport2).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
